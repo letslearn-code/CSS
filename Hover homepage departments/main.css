@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  color: #fff;
+}
+
+ main{
+     background: rgb(146, 146, 146);
+     display: flex;
+     width: 100%;
+     text-align: center;
+     
+ }
+
+ .department{
+     background: rgb(240, 143, 143);
+     width: 33.3%;
+     min-height: 100vh;
+     border-right: 1px solid rgb(71, 71, 71);
+     border-left: 1px solid rgb(71, 71, 71);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .department:hover{
+     background: rgb(68, 230, 36);
+     width: 55%;
+     transition: all 1s ease;
+     cursor: pointer;
+ }
+
+ #d1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.99) 0%, #000001 0%), url("https://images.pexels.com/photos/669612/pexels-photo-669612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center/cover; 
+
+ }
+ #d2{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.99) 0%, #000001 0%), url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center/cover; 
+
+ }
+ #d3{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.99) 0%, #000001 0%), url("https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center/cover; 
+
+ }
